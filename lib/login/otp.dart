@@ -65,7 +65,7 @@ class _KodeOTPState extends State<KodeOTP> {
                       ),
                       Center(
                         child: OTPTextField(
-                          length: 4,
+                          length: 5,
                           width: MediaQuery.of(context).size.width - 100,
                           textFieldAlignment: MainAxisAlignment.spaceAround,
                           fieldWidth: 55,
